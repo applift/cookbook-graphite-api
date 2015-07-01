@@ -10,10 +10,9 @@ to Graphite-web.
 
 ## Requirements
 
-* Debian
 * Ubuntu
 
-**Notes**: This cookbook has been tested on Debian 7.2 and Ubuntu 14.04. It may
+**Notes**: This cookbook has been tested on Ubuntu 12.04. It may
 work on other platforms with or without modification. Please [report
 issues](https://github.com/odolbeau/cookbook-graphite-api/issues) any
 additional platforms so they can be added.
@@ -41,6 +40,10 @@ Then you can check the cookbook style with `rake style`.
 
 The default `rake` command also launch all kitchen tests. Take care, it can be
 long.
+
+## Notes
+This is a fork from [cookbook-graphite-api](https://github.com/odolbeau/cookbook-graphite-api) by odolbeau
+It was cleaned up and slimmed down for my use case.
 
 ## License
 

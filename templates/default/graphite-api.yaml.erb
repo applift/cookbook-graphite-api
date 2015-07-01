@@ -18,3 +18,8 @@ whisper:
     - <%= directory %>
     <% end -%>
 <% end -%>
+
+allowed_origins:
+  <% @node['graphite_api']['allowed_origins'].each do |origin| -%>
+  - <%= origin %>
+  <% end -%>
